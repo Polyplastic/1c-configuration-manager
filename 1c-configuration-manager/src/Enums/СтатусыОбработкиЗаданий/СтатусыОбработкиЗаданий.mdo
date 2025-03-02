@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f65c270-12dd-46f4-826c-4e51d7638d5d">
+  <producedTypes>
+    <refType typeId="b76b4096-8108-47a8-8f31-a84859ab5198" valueTypeId="66cee731-1b8b-41c8-ac97-e77fb0c8845e"/>
+    <listType typeId="77b5f9b6-8495-4c00-8e3f-0d9403fefc10" valueTypeId="0793872c-fbb5-4a88-a8dc-c782766b142b"/>
+    <managerType typeId="0a685d1d-8b50-4e08-b20e-39c16462fe8d" valueTypeId="e0a63d7c-1e23-44e9-9eb3-6bec90708f9a"/>
+  </producedTypes>
+  <name>СтатусыОбработкиЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы обработки заданий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7185eaff-85e7-447c-a708-590682afde1d">
+    <name>ТребуетсяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется обработка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6143410a-e729-482c-a788-1aa2ce72920a">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="877d16c3-856b-45e1-bc19-b839d4082e8c">
+    <name>Обработан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0011f623-094b-4fd6-86fa-99174d274461">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d319a1c-3403-4772-aabe-6f97293a82d5">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db59a5a8-b340-4a7b-9c73-9aed6636780f">
+    <name>Пауза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пауза</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

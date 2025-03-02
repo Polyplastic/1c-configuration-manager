@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57314647-a40f-40f9-a393-2956e23332ff">
+  <producedTypes>
+    <objectType typeId="03a1e239-3d2c-4e85-b2fb-a7c6cad800b3" valueTypeId="98f0e664-3f39-40ec-a404-731e5660e55f"/>
+    <managerType typeId="78bbe8d1-7d0b-4919-9551-20a897362502" valueTypeId="17b10af7-f88a-4a1e-9750-3f0d4892e7ad"/>
+  </producedTypes>
+  <name>СхлопываниеУдалениеДублейОбъектовИСвойствКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Схлопывание удаление дублей объектов и свойств конфигурации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СхлопываниеУдалениеДублейОбъектовИСвойствКонфигурации.Form.Форма</defaultForm>
+  <forms uuid="b14a08e0-1ede-4ea0-887a-fa0b676a7e02">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

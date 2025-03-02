@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3e890ee-627a-4025-b59b-9478d8383ebd">
+  <name>НедоступныеДанныеЦвет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Недоступные данные</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.LightGray</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e23533fa-48f1-4ab2-b929-7be3606e5148">
+  <producedTypes>
+    <objectType typeId="8dfe8b66-aa8a-4d1f-bd32-c26aa668512c" valueTypeId="d03de1ae-b4c8-466d-b125-f10516608b9c"/>
+    <refType typeId="bc160d5c-cd53-4019-8896-895b2242598f" valueTypeId="aa4bbb12-b61c-499a-a5dd-386ae59d3452"/>
+    <selectionType typeId="ddd8ad03-394b-4149-840b-4156d1bd63d5" valueTypeId="3e98d47e-5601-4429-8c56-22bbbc849c7c"/>
+    <listType typeId="7fc9ee52-7c2c-4ed7-8e78-3a8cd3c83cc4" valueTypeId="19d4eb24-809c-4b11-8f07-b74e890556dc"/>
+    <managerType typeId="6c4bee33-538f-4dae-878d-7b925da55bba" valueTypeId="db70c653-e42c-4d7f-803e-2bb60ee5d51c"/>
+  </producedTypes>
+  <name>КлючиНастроекОбработкиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключи настроек обработки данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КлючиНастроекОбработкиДанных.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="20fd7a89-5aa3-44f1-936f-b5a7a6937d8f">
+      <name>АлгоритмПоискаИзменений</name>
+      <description>Алгоритм поиска изменений</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9522d89f-6c1f-4e46-adeb-eb26b7da4ba4">
+      <name>ДобавлятьКомментарииПриВставке</name>
+      <description>Добавлять комментарии при вставке</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6e5ce65f-1cc0-499a-bd15-9d2681d7a1f2">
+      <name>ДобавлятьКомментарииПриУдалении</name>
+      <description>Добавлять комментарии при удалении</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="56c924ed-0cb2-44f1-b27f-0b556ce4c344">
+      <name>КоличествоПотоков</name>
+      <description>Количество потоков</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1af784a1-febb-41ec-9b76-76bc543f116b">
+      <name>УдалятьУдаленныеСтрокиИзИтоговогоФайла</name>
+      <description>Удалять удаленные строки из итогового файла</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7430cfa4-5c7c-488e-97c5-cf8aa7cb5cd0">
+      <name>ШаблонКомментарияПриВставке</name>
+      <description>Шаблон комментария при вставке</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9ce0a77e-0029-4713-8ed2-7702db73bff9">
+      <name>ШаблонКомментарияПриУдалении</name>
+      <description>Шаблон комментария при удалении</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9fb40750-b7cf-4075-8f4e-926e632bfb18">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4376d504-b26b-412d-919f-f35279221d72">
+    <name>ЭтоЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это число</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e108c025-3d0f-40fc-96cb-20900d7557fd">
+    <name>ЭтоСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это строка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ddab4885-8b8b-4115-a6a2-0a946ed655de">
+    <name>ЭтоБулево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это булево</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

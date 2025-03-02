@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35aa650c-a7a6-42a2-a825-c33787d90f6b">
+  <producedTypes>
+    <objectType typeId="bef14520-886f-40a1-9463-f4cf706bfc1c" valueTypeId="d23bcf0e-9bb8-428a-9dd8-cf8003b9c5af"/>
+    <managerType typeId="fe740626-a5fe-44ca-a3f4-1597c0d379b4" valueTypeId="c3570207-f511-4b45-a0a4-f3c11a398558"/>
+  </producedTypes>
+  <name>ОтчетПоРассчитаннойВставке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по рассчитанной вставке</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоРассчитаннойВставке.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="e8074fee-c36c-4dca-b446-9fe6b05beb0e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

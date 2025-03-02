@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d31e6f7c-fe38-463d-8bf5-5b04e482c175">
+  <name>ОбновлениеИндексаППД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление индекса ППД</value>
+  </synonym>
+  <methodName>CommonModule.ПолнотекстовыйПоискСервер.ОбновлениеИндексаППДПоРасписанию</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

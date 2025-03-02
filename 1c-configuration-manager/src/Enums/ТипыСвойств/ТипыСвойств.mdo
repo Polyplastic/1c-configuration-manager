@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd309624-2b8f-49f1-b598-b58bf3609a4f">
+  <producedTypes>
+    <refType typeId="8e8680aa-4372-4e62-9870-c8c29ece193c" valueTypeId="0544837b-42f7-4c17-a97d-bce3d1e6c5a9"/>
+    <listType typeId="083c0e38-05d1-4a1b-bf92-3517a12a5907" valueTypeId="8efe2eb3-c838-4fe9-b761-2b28bf20e2b4"/>
+    <managerType typeId="dbc95d8c-7a40-4315-82df-2cdd5b25f48e" valueTypeId="8be8bef2-b323-49e0-8540-e7eaee29b8f0"/>
+  </producedTypes>
+  <name>ТипыСвойств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы свойств</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="21852cee-ca3e-4ccd-845f-7ab3891c0394">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3fa27196-932d-4199-a0f3-f576b0815f65">
+    <name>Измерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1cff31f2-dcfb-4a9c-9fbe-839a6f5c7208">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23b5144d-636d-468a-b922-ab3c764e4cbd">
+    <name>СтандартныйРеквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный реквизит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b339a343-da83-4878-af1b-7fc1a9411a84">
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69d7383f-ae8a-409f-b54b-07fd423fe580">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21e52ffc-44b4-49d9-bae4-db95e74e934c">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4930d876-3539-4c7c-aacc-e15e01122143">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ece50429-b4fa-4bd8-8e88-bb58b3849fb8">
+    <name>Свойство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство объекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cef699e1-ab8c-42b6-940e-b84bb42d0fd8">
+    <name>МодульМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль менеджера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ddc73ed5-afcc-41b7-bce6-8a682b87b01d">
+    <name>МодульОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль объекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84a70de4-32af-4585-aa1d-3d7920aeffc2">
+    <name>МодульНабораЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль набора записей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="516a379e-5284-456e-b02b-baf8408601a5">
+    <name>Модуль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

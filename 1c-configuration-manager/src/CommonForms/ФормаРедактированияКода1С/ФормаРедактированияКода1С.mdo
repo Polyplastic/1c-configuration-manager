@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c713afce-57a7-43a9-95fe-d9af80105b41">
+  <name>ФормаРедактированияКода1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма редактирования кода 1С</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

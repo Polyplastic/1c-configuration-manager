@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47ed4112-eac8-429d-a028-2e72d5d99995">
+  <producedTypes>
+    <selectionType typeId="afb05325-6fe3-4f67-9f6e-5b3990b51833" valueTypeId="59cd45e0-a8c9-4941-97d6-42515c054d48"/>
+    <listType typeId="8cfa0efa-97cc-4288-a90b-68ddb1c23385" valueTypeId="8147609d-f07a-4fd7-b618-315798a49380"/>
+    <managerType typeId="f3cb85f9-d267-41e8-b206-775c9575daa0" valueTypeId="b70bc2c9-867b-4bb0-90ef-1a6a33c30675"/>
+    <recordSetType typeId="9fcc9024-e0c4-4d70-9333-974371b4586c" valueTypeId="1b25d1f8-aeba-49fe-a4ea-64cc3c82cd3e"/>
+    <recordKeyType typeId="f60d5f9a-96e8-487e-8b44-5c068fb177b9" valueTypeId="183c7f51-adcd-4bb9-a152-1d7781b3eb28"/>
+    <recordType typeId="0ff3c324-cadd-49eb-a979-ec686b6bd71f" valueTypeId="f6dfd750-2807-44af-b5f0-bb80dd40422f"/>
+    <recordManagerType typeId="cbdb8c31-5b3c-4ed3-ae44-1be2a15f0cd4" valueTypeId="302dfbe9-1dc5-4d9d-9859-17dc8c9d5cdd"/>
+  </producedTypes>
+  <name>СоставКлючейЗнаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав ключей знаний</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="58ed2994-923f-4c83-ad7a-e1a26098f944">
+    <name>КлючЗнания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ знания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючиЗнаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7ace7112-4ad4-40ae-92b8-5a29d4127adf">
+    <name>Подсистема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подсистема</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонфигурации</types>
+      <types>CatalogRef.ПодсистемыКонфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c10621b9-dd19-446a-9ee4-9e518afe53cd">
+  <producedTypes>
+    <objectType typeId="05cd54ab-ff63-486b-bfcb-d1b845fab7fc" valueTypeId="4934d516-3bab-4e78-a5af-6263acc036ba"/>
+    <refType typeId="e9b5b410-bed2-45a8-adbb-a870be0af8db" valueTypeId="88a20393-aaa1-4205-aad0-6567595b0a4e"/>
+    <selectionType typeId="2c348488-de45-4057-8590-b7a120d7f143" valueTypeId="35101733-1aff-401b-8a48-ead371d0dfae"/>
+    <listType typeId="3b3a270c-e7d0-4293-8659-5523ac1f163b" valueTypeId="e66edbfb-317c-42fb-8c1e-79654d74ae28"/>
+    <managerType typeId="2f353f93-7955-41f7-9094-b172a89b1ee9" valueTypeId="15b7b0d9-0bd7-4fb7-9466-3ef62e494935"/>
+  </producedTypes>
+  <name>Действия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Действия.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Действия.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="1aa5a32c-7f55-41a6-8395-0dc3bbdc796c">
+    <name>HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="969e91c5-35c0-4715-b153-efe2a12644fb">
+    <name>КраткоеОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткое описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5a73bea6-fea7-49fa-885c-5e5c3406dfba">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

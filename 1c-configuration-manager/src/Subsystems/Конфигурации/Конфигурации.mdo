@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2bccf58-2855-4c97-872c-bd9b12c45803">
+  <name>Конфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаУправлениеРелизами</picture>
+  </picture>
+  <content>Catalog.Конфигурации</content>
+  <content>Catalog.ОбъектыКонфигурации</content>
+  <content>Catalog.СвойстваОбъектаКонфигурации</content>
+  <content>Catalog.МеханизмыКонфигурации</content>
+  <content>Catalog.ПодсистемыКонфигурации</content>
+  <content>InformationRegister.СвязьЗадачОбъектов</content>
+  <content>InformationRegister.СегментыОбъектовКонфигураций</content>
+  <content>Catalog.СегментыОбъектов</content>
+  <content>InformationRegister.ОбработанныеОбъектыКонфигурации</content>
+  <content>DataProcessor.ПростановкаОбработанныхОбъектов</content>
+  <content>Report.АнализОбработанныхМетаданных</content>
+  <content>DataProcessor.ТребованияКОбработкеИзФайлаСравнения</content>
+  <content>InformationRegister.ВыполнениеСпискаОпераций</content>
+  <content>Catalog.Действия</content>
+  <content>Catalog.БазовыеКонфигурации</content>
+</mdclass:Subsystem>

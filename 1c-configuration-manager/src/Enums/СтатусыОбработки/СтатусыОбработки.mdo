@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1835b63c-4433-4b3c-96c9-ea7ccee90fe3">
+  <producedTypes>
+    <refType typeId="4f564827-04f2-4720-aa52-19b43880e152" valueTypeId="ae0facf8-1cd1-4296-adb4-d02df6f54842"/>
+    <listType typeId="2dcd3b70-0486-4417-8b16-728a48f3a378" valueTypeId="d260a344-4168-4641-9a15-7487fc654a8a"/>
+    <managerType typeId="64b9a024-bf16-46ab-8467-f726e50d814d" valueTypeId="4e0c4df8-9474-4b34-8519-355e123e0965"/>
+  </producedTypes>
+  <name>СтатусыОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы обработки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="02cf8a9c-3574-4ab5-9242-b3901fc07b27">
+    <name>ТребуетсяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется обработка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd89d647-a5d1-4d25-bf78-abe1303c99d8">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d650b1a-e3b9-4925-a5b7-0aa154071c33">
+    <name>Частично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частично</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e37a52fa-6fd1-477d-8a13-17b8685f9939">
+    <name>Обработан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af8506ab-3f35-469f-8955-d219c772228f">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e404c6c-6949-48ff-8918-0172d7597a74">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e86d729b-2dd5-488f-b331-70f352e70fbb">
+    <name>НеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не требуется</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a463ec09-bdab-4a30-b27c-d8ed801261f7">
+  <producedTypes>
+    <refType typeId="d88e4d53-e889-4596-bad2-86ff5b4271af" valueTypeId="4328eb35-dd55-4993-88c6-2fbcb7722f08"/>
+    <listType typeId="65cc0fbd-9ef4-4c0d-8e58-02bd5d7f43ac" valueTypeId="8d6f969c-b84c-477f-bd40-f6585bb6177d"/>
+    <managerType typeId="478833c6-4cf4-4a35-afd9-f11dd07c61d9" valueTypeId="e93c8e85-dc47-44cb-8959-9457cbc95c6e"/>
+  </producedTypes>
+  <name>ТипыПроблем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы проблем</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="341467e8-a48a-4506-8380-4ff893d7eb31">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61885633-9b6a-46e6-a452-b97d5cc0c709">
+    <name>Предупреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="805b5d75-6108-44d1-867d-79690ad040cc">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6561b50-38a9-420c-abed-9e8f5f7a4d31">
+    <name>Неопределено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неопределено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

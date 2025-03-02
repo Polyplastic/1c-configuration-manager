@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="faa07583-0728-4f27-920a-520db9f8bc92">
+  <producedTypes>
+    <objectType typeId="ca546bb0-92d8-4802-91c9-3e35e7a97452" valueTypeId="33d728c4-5f1e-45c2-bfa0-a67acd2993c8"/>
+    <refType typeId="67fd6c9b-64f5-4da7-b021-7345c96f841c" valueTypeId="9467e4db-7670-46e9-8400-bf9d81220318"/>
+    <selectionType typeId="0bb9877e-851b-44a8-bf40-17efa7f5f428" valueTypeId="1d63f3e1-a00b-427a-b46a-06970f90e65c"/>
+    <listType typeId="c116ed09-e408-46c6-9e04-2587adfcfed3" valueTypeId="da1051c2-cbec-4861-9751-c5012ee1aafc"/>
+    <managerType typeId="67b8fc75-dff8-4ed0-88a6-b8b20aaafe66" valueTypeId="5ce5b259-109c-4ff1-8638-4bb4ec2c5520"/>
+  </producedTypes>
+  <name>СегментыОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сегменты объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СегментыОбъектов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4e123ae5-514c-4b64-b57b-c1fa76170023">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="566a1417-5e24-4239-99af-d9a14b637be9">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

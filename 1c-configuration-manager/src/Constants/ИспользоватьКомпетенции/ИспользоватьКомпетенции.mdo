@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b55f4769-1426-4460-a474-040013f9fe9b">
+  <producedTypes>
+    <managerType typeId="6bbdac57-04ed-4b90-9aa8-438022f19f64" valueTypeId="b8dfdeaf-d444-4bf1-9131-7e38a24819e6"/>
+    <valueManagerType typeId="752fee56-9173-452f-92e3-d10d8bf032ff" valueTypeId="d5cbb664-f586-417c-8750-ba65fb95eb5e"/>
+    <valueKeyType typeId="38015804-1a3f-4b96-b566-0531ad2e7bcd" valueTypeId="69a5260a-5d82-42ea-a8ba-e4a45e96a561"/>
+  </producedTypes>
+  <name>ИспользоватьКомпетенции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать компетенции</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

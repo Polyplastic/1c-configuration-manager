@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c339f493-b4ee-42ae-aaa2-884987343fa4">
+  <name>СравнениеТекстBSLУпрощенныйDiffКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение текстовых BSL упрощенный diff данных клиент сервер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

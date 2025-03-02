@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2b4d9cc-af05-4f95-8602-6dcb080505be">
+  <producedTypes>
+    <selectionType typeId="10b3b66c-9501-4305-a429-aefeaa1647a9" valueTypeId="a6801d83-5f4b-46c5-861a-401c180989dd"/>
+    <listType typeId="c0eb5af3-319c-4787-a85c-33f8e0abe7db" valueTypeId="900d084d-aa7f-4abb-8f9c-d4345917c475"/>
+    <managerType typeId="6ce8eac9-d8fb-44c3-b134-8b2c08f07535" valueTypeId="0c8cdecb-f423-437d-a71a-606bfee1edf5"/>
+    <recordSetType typeId="3d75ab6c-6f1e-4637-90d4-d8bd6f8c7cd3" valueTypeId="27e880f8-4f3d-4844-9c95-7886d0041d68"/>
+    <recordKeyType typeId="7419080f-010d-4ac9-9ce7-fb9839273d93" valueTypeId="4cd1b7c0-c20e-4f9b-a299-f00385d3d063"/>
+    <recordType typeId="eb47ea32-c176-4c98-a5b2-16c165dd5056" valueTypeId="571ad883-ece1-43a1-a1af-cd3d72830bd8"/>
+    <recordManagerType typeId="5af8163f-9a38-4182-bd2c-c3698c0b0741" valueTypeId="f929f60b-b697-4f73-9887-208c697128a7"/>
+  </producedTypes>
+  <name>СегментыОбъектовКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сегменты объектов конфигураций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="b8ec3d81-dfb3-416a-9fc8-3f9b63e384bf">
+    <name>Сегмент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СегментыОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0962785d-4fb1-4fd1-9a99-71cb4e106a74">
+    <name>ОбъектКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект конфигурации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

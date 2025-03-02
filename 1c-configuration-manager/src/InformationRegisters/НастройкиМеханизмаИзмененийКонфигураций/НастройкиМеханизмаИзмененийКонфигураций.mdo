@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93c183d2-95f7-4f4a-b82d-4445ca8084a9">
+  <producedTypes>
+    <selectionType typeId="ddbf674e-7aea-4cf8-abef-b19d071631d2" valueTypeId="8e8ce9ff-21e9-41fc-9611-d1f44d7ebfdf"/>
+    <listType typeId="243f4c01-1882-45df-b589-6f654c844136" valueTypeId="094ca25c-1c1c-45ee-97da-8e9d4654230f"/>
+    <managerType typeId="e3426a0f-20b9-4fad-a0f2-a48d7b0cce6e" valueTypeId="e8c4b19d-cafd-4873-8f9f-92ad7a0b82d7"/>
+    <recordSetType typeId="22967899-a2ab-45b0-9ad8-6fcdda556e2c" valueTypeId="540804f8-8d83-4edb-b8de-faf36880bf25"/>
+    <recordKeyType typeId="a7d7f9be-0850-4d2b-86a4-60e1ec555da1" valueTypeId="1d73aa95-8602-4ba7-99b4-2402a5e82990"/>
+    <recordType typeId="b07b91e5-7b18-40e7-b2b6-ee34308e3312" valueTypeId="3a5cfcce-b123-4c81-916a-40cd81a92629"/>
+    <recordManagerType typeId="2e4cf20e-e968-44b5-8103-d4378cb46a75" valueTypeId="f90a4b98-2df5-4555-b2b6-7233e39486a9"/>
+  </producedTypes>
+  <name>НастройкиМеханизмаИзмененийКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки механизма изменений конфигураций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкиМеханизмаИзмененийКонфигураций.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ae8713c0-c14b-4a46-a41a-40aa04172cc1">
+    <name>ЗначениеЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f93ab1fc-197c-46ca-b6ed-174ffc806658">
+    <name>ЗначениеБулево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение булево</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5763790c-01c6-4dc5-a07c-2d25f86f871a">
+    <name>ЗначениеСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="56d9f87d-389b-4484-97c0-b49322258360">
+    <name>Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючиНастроекОбработкиДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="60cd08d0-1fea-4297-b361-70cc6e9318d3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aed4a2b3-4e92-4d09-9c77-0779f062f7a4">
+  <name>АвтоматическаяОбработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматическая обработка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.УправлениеАвтоматическойОбработкойИзмененийКонфигураций</content>
+  <content>InformationRegister.СравнениеКонфигураций</content>
+  <content>InformationRegister.РасчетИзмененийКонфигураций</content>
+  <content>InformationRegister.ЗаданияОбработкиИзмененийКонфигураций</content>
+  <content>InformationRegister.НастройкиМеханизмаИзмененийКонфигураций</content>
+  <content>Catalog.СценарииОбработкиДанных</content>
+  <content>Catalog.КлючиНастроекОбработкиДанных</content>
+  <content>DataProcessor.ФормированиеЗадачНаРучнуюОбработку</content>
+  <content>DataProcessor.РабочееМестоОбработкиПроблемСравнения</content>
+  <content>InformationRegister.РасчетИзмененийКонфигурацийРучнаяПравка</content>
+  <content>DataProcessor.ОбработатьФайлСравненияКонфигураций</content>
+  <parentSubsystem>Subsystem.СравнениеДанных</parentSubsystem>
+</mdclass:Subsystem>

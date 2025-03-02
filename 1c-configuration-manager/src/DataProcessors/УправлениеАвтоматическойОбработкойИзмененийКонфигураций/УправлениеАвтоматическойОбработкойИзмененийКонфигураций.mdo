@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5eb790da-7fb9-47fb-ba79-fc84c92284e8">
+  <producedTypes>
+    <objectType typeId="01a81597-e16c-4f11-b905-a62a6342d21e" valueTypeId="3af91055-f792-4081-96f3-5fac5a430122"/>
+    <managerType typeId="67e4220a-eddc-4f6e-8a1d-0bb79a2abd47" valueTypeId="0c0931ac-9934-466a-8dcc-2e83d6738d14"/>
+  </producedTypes>
+  <name>УправлениеАвтоматическойОбработкойИзмененийКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управл. авт. обработкой изменен. конф.</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеАвтоматическойОбработкойИзмененийКонфигураций.Form.Форма</defaultForm>
+  <forms uuid="06cf97a1-c624-4d06-b656-e54591a704f9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e0263443-350d-4c45-bb68-eb31ec5c8351">
+    <name>ФормаСоздатьНовоеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создать новое задание</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

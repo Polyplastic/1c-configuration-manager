@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da12ab33-0c21-4dda-8338-0b9d6f018c23">
+  <name>ИспользоватьБагТрекинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать баг трекинг</value>
+  </synonym>
+  <location>Constant.ИспользоватьБагТрекинг</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.БагТрекинг</content>
+  <content>Catalog.ЗадачиJIRA</content>
+  <content>InformationRegister.СвязьЗадачОбъектов</content>
+</mdclass:FunctionalOption>

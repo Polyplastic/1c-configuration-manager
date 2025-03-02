@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a511ade4-bb52-4a5e-8a5d-06e347969b6f">
+  <producedTypes>
+    <managerType typeId="1a83ec12-d452-4d05-b74c-9a09b92f0cef" valueTypeId="88bd3f3c-eec3-48fb-a2f1-32f9aadc23d2"/>
+    <valueManagerType typeId="dac89b00-3ad2-4e5a-8f08-b90a88eb4e2d" valueTypeId="f37372a4-699e-4fd2-84f7-b6fde6eab579"/>
+    <valueKeyType typeId="37d6635d-4fd8-4701-9871-9cfbd132135d" valueTypeId="9e8052bd-0445-4a9c-8bb9-2460689c3224"/>
+  </producedTypes>
+  <name>ИспользоватьБагТрекинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать баг трекинг</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

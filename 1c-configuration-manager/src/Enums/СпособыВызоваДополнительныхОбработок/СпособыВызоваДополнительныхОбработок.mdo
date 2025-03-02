@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28de88c9-5b53-4790-a99a-a3c4676cc094">
+  <producedTypes>
+    <refType typeId="e2be1214-a081-4d7f-801c-2945b48164d0" valueTypeId="56a7f017-8544-4625-86b3-be57418eb5ce"/>
+    <listType typeId="f89d4571-2ab3-42e4-9945-5678b016319a" valueTypeId="2900fe5b-788b-4280-b6bc-3863f9255549"/>
+    <managerType typeId="45cc1b25-1dc9-480f-beae-ee8ef4bcdd84" valueTypeId="56500584-33a4-4544-b140-8e196b1801e1"/>
+  </producedTypes>
+  <name>СпособыВызоваДополнительныхОбработок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы вызова дополнительных обработок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f0c91d7c-31d3-4d3c-9384-0f924706c939">
+    <name>ВызовКлиентскогоМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вызов клиентского метода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90c2e5d3-a6a4-4a4e-b0e4-c38b7c111340">
+    <name>ВызовСерверногоМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вызов серверного метода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83702a73-867b-4c1e-8cd8-f7514353f06c">
+    <name>ЗаполнениеФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение формы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08695cb9-5778-4ac8-814f-de425efc5b08">
+    <name>ОткрытиеФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытие формы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21e90f60-314d-47a9-8a8a-732a944934bb">
+    <name>СценарийВБезопасномРежиме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий в безопасном режиме</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d98e5a8-7a42-4dde-a794-59d7d4d3cab6">
+    <name>ЗагрузкаДанныхИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка данных из файла</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b912abde-ffb5-400f-90db-924cf4dd1092">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаАдминистрирование</picture>
+  </picture>
+  <content>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси</content>
+  <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
+  <content>CommonForm.ФормаКонстант</content>
+  <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
+  <content>CommonCommand.ДополнительныеОтчетыАдминистрирование</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>InformationRegister.БезопасноеХранилищеДанных</content>
+  <content>CommonForm.ОписаниеИзмененийСистемы</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>Catalog.ИдентификаторыОбъектовМетаданных</content>
+  <content>DataProcessor.ПолнотекстовыйПоискВДанных</content>
+  <content>InformationRegister.ВерсииПодсистем</content>
+  <content>InformationRegister.НастройкиПользователя</content>
+</mdclass:Subsystem>

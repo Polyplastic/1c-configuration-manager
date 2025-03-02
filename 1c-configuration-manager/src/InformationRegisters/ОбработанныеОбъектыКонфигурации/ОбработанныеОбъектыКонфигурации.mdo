@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="691963ba-53d4-4326-8c72-a7cb920ea8f4">
+  <producedTypes>
+    <selectionType typeId="9fedf042-c048-4f1b-9823-60317ee67c41" valueTypeId="2e7563ae-dafa-4b80-a173-628506f60658"/>
+    <listType typeId="29d1a6e3-f6f0-4973-80b3-134d81016d45" valueTypeId="e8b10356-cbd1-470d-962b-11084bce0100"/>
+    <managerType typeId="9d0173ae-9dba-4da8-b408-4ca9c48d0790" valueTypeId="d5082d48-17a8-4a01-a671-383629d3cf72"/>
+    <recordSetType typeId="04578332-da90-4603-af45-02251fa09019" valueTypeId="757bf77e-38d9-4651-be19-b7dd8e935879"/>
+    <recordKeyType typeId="8e44620e-8081-4727-b2ec-49bb72397b9f" valueTypeId="9b593df9-05eb-41e8-989c-955d0d2bd72a"/>
+    <recordType typeId="eb7ae41d-c244-4e7b-ad7b-34d756e3288f" valueTypeId="11d18a59-744e-4792-9495-af703e3bc941"/>
+    <recordManagerType typeId="70e0c5f5-2f51-49d0-8f49-1f2872e38991" valueTypeId="eb533dbf-6695-4d4d-a618-42c493b391c1"/>
+  </producedTypes>
+  <name>ОбработанныеОбъектыКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработанные объекты конфигурации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d8b26d25-7d75-4725-9830-7364e68b3cd5">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a48ac357-4ef5-4e0f-8db9-8e425b2875cc">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="20e0174b-721f-4ced-9256-148aed278b3f">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="85c15ead-82e3-4126-b59e-290c32c6ce66">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="33fe702e-7855-490e-972c-9358d0fbde0e">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Приоритеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.Приоритеты.EnumValue.Основной</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="12e6d460-96c8-4d94-8c3a-05886fe0080d">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СценарииОбработкиДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bef572bd-ec1b-40ef-814d-1b8f9709cece">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ffe5d86a-9921-451d-80fc-45dad172c2fe">
+    <name>ОбъектКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект конфигурации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Конфигурация</name>
+      <field>InformationRegister.ОбработанныеОбъектыКонфигурации.Dimension.Конфигурация</field>
+    </choiceParameterLinks>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="269b151f-d198-403b-ad33-4643c39bff63">
+    <name>СвойствоОбъектаКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство объекта конфигурации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СвойстваОбъектаКонфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.ОбъектКонфигурации</name>
+      <field>InformationRegister.ОбработанныеОбъектыКонфигурации.Dimension.ОбъектКонфигурации</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

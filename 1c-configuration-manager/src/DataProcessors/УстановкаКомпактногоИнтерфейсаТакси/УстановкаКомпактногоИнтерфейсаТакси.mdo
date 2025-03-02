@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35ae807b-ac3a-4a10-a0a6-7c114d394877">
+  <producedTypes>
+    <objectType typeId="2f0dc91c-aca9-4b52-b8e8-de48c77db2ed" valueTypeId="fb9dad0d-43d9-4660-ad7a-568793d67005"/>
+    <managerType typeId="dbfb60ff-d345-46f0-a37d-e60dde9b54b0" valueTypeId="f564f209-b375-4703-92ce-1fc369a9e5c9"/>
+  </producedTypes>
+  <name>УстановкаКомпактногоИнтерфейсаТакси</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка компактного интерфейса такси</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УстановкаКомпактногоИнтерфейсаТакси.Form.Форма</defaultForm>
+  <forms uuid="6b991a07-ef5f-43e3-b856-8cd9420d7349">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

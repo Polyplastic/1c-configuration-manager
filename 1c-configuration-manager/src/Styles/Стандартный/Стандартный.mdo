@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce0f6a9f-82e5-4a7b-8cfc-4fc67d3a812b">
+  <name>Стандартный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартный</value>
+  </synonym>
+</mdclass:Style>

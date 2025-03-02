@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5b4beed-d1d6-4286-86eb-9fa1ee9c862d">
+  <producedTypes>
+    <refType typeId="6cb7f613-55bf-4d10-b93c-d79b698fada6" valueTypeId="cff33a00-a0da-4452-9421-13d435dad495"/>
+    <listType typeId="2507d6d7-1b6d-4922-a763-ea2d46b56973" valueTypeId="81298330-8df2-4894-b810-b904b52dc638"/>
+    <managerType typeId="1f2e2dc2-a08b-4aa7-8504-47e063cf5a20" valueTypeId="679561d5-07e1-4372-9acd-659aac3265f6"/>
+  </producedTypes>
+  <name>ТипыИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы изменений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="97280325-756d-45d7-b2ea-41e19ec35b94">
+    <name>Совпадение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Совпадение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a991bd9e-45ee-41e3-8ff6-6b2345ce6fd8">
+    <name>Вставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вставка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0a85832-6dea-401e-984e-357562336da4">
+    <name>Удаление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f25c5695-975f-43fd-8fca-e27be02ad7b4">
+    <name>Замена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7b9f978-5a6e-43d6-b653-f759b9de47c8">
+    <name>Неизвестно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неизвестно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

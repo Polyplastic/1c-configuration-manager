@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f296e1a1-7296-4418-bc7c-4445861a3c71">
+  <producedTypes>
+    <objectType typeId="639c0239-9af3-46e5-baf7-cc8d85bc5476" valueTypeId="49160fb6-c789-4dc1-993e-e9bf93470ea7"/>
+    <refType typeId="bf15fb94-df82-4e17-b634-ef1e3c1d8136" valueTypeId="dfdaa8c6-a323-493c-ac23-455dd1bd4024"/>
+    <selectionType typeId="4caceae6-79bb-476c-b70a-ca86b6e9a6e3" valueTypeId="432bc632-e44a-44fb-afe5-5c234e8da07d"/>
+    <listType typeId="63a4a65b-5f65-4ecc-8f64-5c81c2ee2f2b" valueTypeId="3fdc82d2-a4e6-4889-9a2e-8a91a17294c9"/>
+    <managerType typeId="176f2ed6-8b5e-415a-9c8a-b9df589441cb" valueTypeId="2e6ef16e-a92b-4ff1-a8c4-a6a50ffd2cb3"/>
+  </producedTypes>
+  <name>ЗадачиJIRA</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи JIRA</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗадачиJIRA.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗадачиJIRA.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ЗадачиJIRA.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЗадачиJIRA.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="c948c360-f386-42a6-bebd-ee29e08ac5a1">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f1dacd1-ab11-4b0b-ba56-fd37a7548a7a">
+    <name>EpicLink</name>
+    <synonym>
+      <key>ru</key>
+      <value>Epic link</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ba16a92b-6f0b-4228-8b02-cbe495d359c6">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1934bd0b-37d4-4ee1-9218-33ae2e8ef371">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="74d17ecd-462f-4782-a2c1-8e6629106312">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

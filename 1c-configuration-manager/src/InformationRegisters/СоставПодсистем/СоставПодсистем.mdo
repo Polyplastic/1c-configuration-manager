@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e188960-1c0b-4c1f-9d0e-700a745da1da">
+  <producedTypes>
+    <selectionType typeId="b243f499-2d5b-4073-9640-9f4515c2daa3" valueTypeId="a92b0ec3-234b-4c8b-9f88-e1494db5b5d3"/>
+    <listType typeId="a3c4c1b6-67e1-4cc6-9bda-988b06711ddb" valueTypeId="bb7dff62-71d9-4e51-9444-cc48d0842895"/>
+    <managerType typeId="5764aa54-a7f8-4a38-9662-53dec8f8fccb" valueTypeId="df945a6b-fc6b-4d69-a9c2-9248d179ab6d"/>
+    <recordSetType typeId="a74a7105-e734-4aed-a7af-2fb5f98c1a83" valueTypeId="3de8ae77-32f4-4a1a-a5b3-ee7ca15f3094"/>
+    <recordKeyType typeId="7fc9aac9-d9d8-4290-a536-9cbc1e819458" valueTypeId="9b9ede10-eb28-46f3-b582-64c63dfc19da"/>
+    <recordType typeId="b4922151-ead2-4934-9ccd-99df1d9091ce" valueTypeId="32a5fd18-a8f2-46f1-914c-9e2821a254af"/>
+    <recordManagerType typeId="4cd8c217-a582-46d2-b6c9-c4fb4365f8b5" valueTypeId="7593560b-dfbb-4d9f-a6f6-1ae0fd0258ca"/>
+  </producedTypes>
+  <name>СоставПодсистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав подсистем</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="8557582f-c239-4046-93df-36c9306c617f">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1bdb7c63-d36d-4307-ad9b-c4dc7dba7645">
+    <name>Подсистема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подсистема</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонфигурации</types>
+      <types>CatalogRef.ПодсистемыКонфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="498162aa-5aa8-4857-bba4-8bc41a2e85ed">
+    <name>ОбъектКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект конфигурации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыКонфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

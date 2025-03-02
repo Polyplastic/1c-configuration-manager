@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36c92716-e64c-4116-9200-f08e50a1307d">
+  <producedTypes>
+    <refType typeId="de0bdf31-80df-4a72-a767-a6e6e57700ce" valueTypeId="df013ac0-cf6e-49f9-b533-1452ccbaab60"/>
+    <listType typeId="b922cb3c-34ea-49a9-b0d1-82d4daef5d13" valueTypeId="b3dcbfae-f514-41a1-8ad0-d1219215d88c"/>
+    <managerType typeId="daf3dd42-d7af-47cd-8cd6-e34c6de071db" valueTypeId="825876de-0388-4780-a4b9-2dde9c215d6e"/>
+  </producedTypes>
+  <name>ВидыДополнительныхОтчетовИОбработок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды дополнительных отчетов и обработок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="617d1004-da80-4061-b6a4-9156d5717036">
+    <name>ДополнительнаяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная обработка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12638e6e-067a-445c-9401-bbf79afd3dce">
+    <name>ДополнительныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительный отчет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02f98f66-42d0-48f5-bfc2-9381a9f48a4a">
+    <name>Отчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07975774-acbb-4357-8533-52d01b8d7219">
+    <name>СозданиеСвязанныхОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание связанных объектов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

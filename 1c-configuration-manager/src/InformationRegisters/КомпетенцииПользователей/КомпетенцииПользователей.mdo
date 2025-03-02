@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dd92c97-7a78-460a-bdc7-43ee3a37861e">
+  <producedTypes>
+    <selectionType typeId="4e0298b8-4521-49c2-a5b0-27e414abaf83" valueTypeId="2786a624-4289-4680-878e-3146557aecb5"/>
+    <listType typeId="47a68b0a-6971-476b-bc51-2116c5cacfcc" valueTypeId="1cfd4afb-8901-4d5d-8154-cbe0a17bbceb"/>
+    <managerType typeId="69aab942-1988-43b9-8496-289b89a153fe" valueTypeId="35bbc19c-4ae5-44d4-9165-98933632c0cb"/>
+    <recordSetType typeId="8af6f07d-7ed6-4bc3-88ea-46871c8f4688" valueTypeId="6ee862a3-3d7e-4d52-a4e1-7fbc00dc66e2"/>
+    <recordKeyType typeId="88b5c035-d728-48db-9e43-4aa118f5c27e" valueTypeId="604d4fe3-0be3-4845-8f96-b7720f1d35bd"/>
+    <recordType typeId="7a7a1e2a-418d-4303-8ed7-e96ccd2c9529" valueTypeId="4f537b6d-fbc7-4dbe-9f3e-285eb9feaff9"/>
+    <recordManagerType typeId="0f48a79c-1016-46c3-97db-27c136439d10" valueTypeId="266cbb7d-7287-493d-a6be-e387abba23dc"/>
+  </producedTypes>
+  <name>КомпетенцииПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компетенции пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2777d04c-cfb0-4b1e-b560-ef7cd3cc8525">
+    <name>Уровень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e42b6f51-afa9-4b63-a31b-f2170e846d03">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="557665c2-34e5-4884-a090-fd368088d1ce">
+    <name>БазоваяКонфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БазовыеКонфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a2ef11f7-13ec-40b4-8676-940c0f53904b">
+    <name>КлючЗнания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ знания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючиЗнаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8da5352-923a-468e-a5c3-0c6e376cf7da">
+  <producedTypes>
+    <objectType typeId="e3410f4c-7cf8-48c6-9b0c-b36e7bfd2f67" valueTypeId="065c2061-8040-49ac-beca-f9503dc87fc7"/>
+    <managerType typeId="8012d8e4-e069-43ff-ac3b-a86feeabb978" valueTypeId="4b9c4f12-5b02-4cc3-958a-a768091a9469"/>
+  </producedTypes>
+  <name>ПолнотекстовыйПоискВДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полнотекстовый поиск</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПолнотекстовыйПоискВДанных.Form.УпрощеннаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="7ca9e445-e6a8-475d-9bf0-c5356ba1126d">
+    <name>УпрощеннаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="faaaab13-226c-4920-bf8f-f309807ed45b">
+    <name>УправлениеПолнотекстовымПоискомИИзвлечениемТекстов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление полнотекстовым поиском и извлечением текстов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="55d00d0d-4a6f-4a78-8137-eeb9eed6f919">
+    <name>ПолнотекстовыйПоиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полнотекстовый поиск</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut>Ctrl+Shift+F</shortcut>
+  </commands>
+</mdclass:DataProcessor>

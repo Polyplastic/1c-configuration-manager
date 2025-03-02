@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b19b0d0-16a6-4158-a87a-3299d5e4da4a">
+  <producedTypes>
+    <managerType typeId="465e5bec-8ca0-4828-9b92-da38054214c0" valueTypeId="f4fc8fea-4a1e-43c8-8fd4-e340c56316c6"/>
+    <valueManagerType typeId="f97661c8-2aa4-425e-a0e9-25a953b0e603" valueTypeId="1463f2f9-7d8c-48f7-bbe9-e2d942c4b2df"/>
+    <valueKeyType typeId="c2c69700-3605-4f3d-a4c2-33add1f6da11" valueTypeId="4ed42ddf-bb74-4e58-ad46-9eab3b0d9e05"/>
+  </producedTypes>
+  <name>ИспользоватьПолнотекстовыйПоиск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать полнотекстовый поиск</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

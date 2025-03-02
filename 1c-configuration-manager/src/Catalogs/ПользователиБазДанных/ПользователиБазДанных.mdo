@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbd9cc53-8d81-4227-9487-2ba54865d099">
+  <producedTypes>
+    <objectType typeId="ea08a623-2f9e-4cbc-994c-ea112e8e17ef" valueTypeId="f02edca6-be7c-4c64-94ee-c34ae9762b1f"/>
+    <refType typeId="53755304-891b-4f39-8d93-b32605573776" valueTypeId="e561e800-9208-4f41-ab85-8aba02121c73"/>
+    <selectionType typeId="0a471ca6-d4d3-4c8d-ae97-3c04ebf5cafb" valueTypeId="67f0ae64-589d-4624-92f7-5e32b9e476ac"/>
+    <listType typeId="b130e497-cfaf-4328-ab24-94a0686fe849" valueTypeId="2b54cb81-f382-47f0-a911-22d8f7d9c416"/>
+    <managerType typeId="d7ef0600-1fda-468d-a8a5-0b77ad9f46cf" valueTypeId="790a4267-c851-4cd7-bcab-14139d34ef43"/>
+  </producedTypes>
+  <name>ПользователиБазДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи баз данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПользователиБазДанных.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3c3dbb07-2ad8-42a9-a850-0bf9655a8145">
+    <name>WindwosАвторизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windwos авторизация</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c231af0-5e8a-4b00-a889-f5ee985e8d2d">
+    <name>СтандартнаяАвторизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартная авторизация</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="84240e8b-e45f-4cc6-8242-084dd2f1a1cd">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <passwordMode>true</passwordMode>
+    <toolTip>
+      <key>ru</key>
+      <value>Не храните пароли в базе данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

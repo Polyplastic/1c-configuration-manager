@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bbedb52-b540-4a9f-9265-78005a86edd1">
+  <producedTypes>
+    <objectType typeId="33522d97-364a-4cc2-8259-48221156b2e1" valueTypeId="e9451c26-c79d-4e58-a8b7-83674c0c2377"/>
+    <refType typeId="d1692094-d87e-4161-a784-d33994faab78" valueTypeId="9c848b2d-4251-44d9-b81e-e0a6c4cec579"/>
+    <selectionType typeId="da89ced8-6e0a-41eb-beaa-d1ccddd2e368" valueTypeId="780b5776-d560-43db-a869-f4ff925a37ac"/>
+    <listType typeId="888f163b-09ae-456a-891d-66aeae6da54f" valueTypeId="0f123251-0656-4c55-a387-46578818eab7"/>
+    <managerType typeId="b4b32e81-93b2-4f6e-9ac3-d2a7edd19848" valueTypeId="72d8e9a6-7a8b-4abd-ac39-79ae16d60b00"/>
+  </producedTypes>
+  <name>МеханизмыКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Механизмы конфигурации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МеханизмыКонфигурации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МеханизмыКонфигурации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.МеханизмыКонфигурации.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.МеханизмыКонфигурации.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="d1909a3c-ea99-4d14-922f-f2cae244ccf5">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="343e5ba9-622c-41af-a5ff-eeccc34c4878">
+    <name>HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3c866c96-d1de-4dcd-bb44-90d0f8971fad">
+    <name>КраткоеОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткое описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bb9b5e6f-a442-4709-97b7-0d7fc8bfe0f9">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5e776716-6cfe-464a-b363-368ce1a4fad2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c22062d2-66c9-4c33-a551-bfe2b9a4c96a">
+    <name>ФормаСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ссылки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d23cf440-d334-48dc-8be6-5d1f4126157d">
+    <name>ФормаИзменитьРазмеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменить размеры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5ad80ad8-ad02-432f-9b79-3a22ce2697fe">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f5c589ef-f90a-4934-b2b5-e755a60dcb02">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b473de79-7093-49e8-b588-56b9e1c969a0">
+    <name>ФормаКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма картинки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="976cd656-dde0-4c9b-8bdf-a70012c4372d">
+    <name>Editor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Editor</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>

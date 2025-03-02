@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb1b5b1c-de00-447f-b5bb-bba5cfc45a06">
+  <producedTypes>
+    <objectType typeId="846e7381-e2ea-4090-80ae-c645142b54d2" valueTypeId="a56ae70a-46a0-4313-8ed8-bc0d65b1974d"/>
+    <refType typeId="0528225f-9742-4807-a54b-e86b1b16efef" valueTypeId="b7c9a960-3604-4a3a-9501-026aaf053704"/>
+    <selectionType typeId="478125df-61a2-4d6d-83e6-d620e0f8ef61" valueTypeId="7c2d20d0-9e4e-4055-8030-96a89f785678"/>
+    <listType typeId="67166054-3b09-4678-820d-eda402e84bb1" valueTypeId="37639a57-f03d-43b4-87f8-1254ef0bb81a"/>
+    <managerType typeId="5922f237-22ee-41af-ae2b-304818a8c9b0" valueTypeId="a737418d-7d92-4630-aed4-2cd59a8cb0c7"/>
+  </producedTypes>
+  <name>КлючиЗнаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключи знаний</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КлючиЗнаний.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>3</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

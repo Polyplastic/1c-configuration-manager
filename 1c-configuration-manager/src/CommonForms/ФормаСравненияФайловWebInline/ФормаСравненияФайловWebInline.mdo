@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12c2d6ac-6639-42c4-ab7a-1c7b252999ec">
+  <name>ФормаСравненияФайловWebInline</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма сравнения файлов web inline</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

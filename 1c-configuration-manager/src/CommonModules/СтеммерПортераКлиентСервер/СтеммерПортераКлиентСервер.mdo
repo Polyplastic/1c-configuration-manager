@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2e9ea5e-772a-47c7-91ec-1b6147af7e88">
+  <name>СтеммерПортераКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стеммер портера клиент сервер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

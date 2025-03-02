@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de32abe1-82eb-47fc-be89-7e4c98635f69">
+  <producedTypes>
+    <objectType typeId="07dcdf1f-c5b5-498a-94c8-a2ca718462b6" valueTypeId="8ac84243-feb2-4380-9616-d50088b0f59a"/>
+    <managerType typeId="2890b7e3-f0b2-448d-8abe-77dee73c22d3" valueTypeId="e4a11632-3008-415b-a4ff-feff6759d4fc"/>
+  </producedTypes>
+  <name>ФормированиеЗадачНаРучнуюОбработку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование задач на ручную обработку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ФормированиеЗадачНаРучнуюОбработку.Form.Форма</defaultForm>
+  <forms uuid="73725748-cf11-4454-a220-be8709a4b0d1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7f9bb056-73a8-4528-a930-79420f1e94be">
+    <name>ФормаСоздатьЗадачиНаОбработкуПроблемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создать задачи на обработку проблемы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="15efbc13-0568-4a0f-8ca3-6eb13b795a6c">
+    <name>ФормаПереназначитьЗадачиПоТекстовомуСпискуКлючей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма переназначить задачи по текстовому списку ключей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

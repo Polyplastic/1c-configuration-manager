@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cece82f-1114-4d58-a872-4aa2e6ba633f">
+  <producedTypes>
+    <refType typeId="d465c66b-559c-4d46-8bb5-9eb97fa45574" valueTypeId="95c37777-b79b-44d3-ba66-ae64ba50ba92"/>
+    <listType typeId="86f50331-ecd1-4bbb-aec4-1447ef48e361" valueTypeId="ca5a444d-9692-4188-8489-ec00962259ff"/>
+    <managerType typeId="0c3da1e4-4a0b-4c4e-92ff-41517057806c" valueTypeId="d763964c-bbb2-49ed-a5c8-0b63dd79bdd3"/>
+  </producedTypes>
+  <name>Приоритеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f2ec5886-a581-457f-9cc3-477aa20c23ec">
+    <name>Блокирующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокирующий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd318ebd-5583-48fe-babe-ce03067ea6c8">
+    <name>Критический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Критический</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="288e1a30-213a-4025-8834-0ccf8b561fe6">
+    <name>Высокий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высокий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24299037-2048-48bc-a664-2689fde7d63a">
+    <name>Основной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dcb748c3-9923-45f2-a629-f47d176673d0">
+    <name>ВПоследнююОчередь</name>
+    <synonym>
+      <key>ru</key>
+      <value>В последнюю очередь</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

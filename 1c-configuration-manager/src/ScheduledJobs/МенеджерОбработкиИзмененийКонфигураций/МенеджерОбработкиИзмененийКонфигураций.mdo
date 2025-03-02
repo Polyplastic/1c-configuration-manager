@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e3231f1-55ef-4b36-aba2-a67d5192a400">
+  <name>МенеджерОбработкиИзмененийКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер обработки изменений конфигураций</value>
+  </synonym>
+  <methodName>CommonModule.ОбработкаИзмененийКонфигурацийСервер.МенеджерОбработкиИзмененийКонфигураций</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07a82879-9881-4211-a142-7aa886c53744">
+  <name>ИспользоватьКомпетенции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать компетенции</value>
+  </synonym>
+  <location>Constant.ИспользоватьКомпетенции</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.КлючиЗнаний</content>
+  <content>InformationRegister.СоставКлючейЗнаний</content>
+  <content>InformationRegister.КомпетенцииПользователей</content>
+  <content>Subsystem.Компетенции</content>
+</mdclass:FunctionalOption>

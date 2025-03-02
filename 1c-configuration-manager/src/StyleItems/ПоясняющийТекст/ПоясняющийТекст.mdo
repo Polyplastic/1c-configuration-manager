@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18947a50-690c-4867-b419-aab11b3e61e4">
+  <name>ПоясняющийТекст</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поясняющий текст</value>
+  </synonym>
+  <comment>Оформление справочного текста в форме</comment>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>128</red>
+      <green>122</green>
+      <blue>89</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

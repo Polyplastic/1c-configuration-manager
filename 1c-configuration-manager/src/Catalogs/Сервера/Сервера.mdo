@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56fb6225-a094-486a-8381-bfedd2821226">
+  <producedTypes>
+    <objectType typeId="403fc485-1c28-46d4-b345-08a433bceb1a" valueTypeId="4672cba5-7a61-43ce-88c9-2559f7733a59"/>
+    <refType typeId="7a21004d-3778-4fbc-87e9-31aaea446aa6" valueTypeId="89204e48-8f26-4357-9278-10ccbf57eb4c"/>
+    <selectionType typeId="0f41ecfc-d947-4424-9ac2-8112da0f1b2c" valueTypeId="9f3c795e-3539-4206-90e1-0d2bae22780b"/>
+    <listType typeId="4e968970-2c36-454e-ade9-84f9e3161ac3" valueTypeId="85d59d65-167b-4020-97f7-a0d072f4c930"/>
+    <managerType typeId="60435b50-fd41-45ee-b87b-737ae03cbcb0" valueTypeId="b3624fd6-52a7-44ff-bc92-e68a5301e128"/>
+  </producedTypes>
+  <name>Сервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сервера.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

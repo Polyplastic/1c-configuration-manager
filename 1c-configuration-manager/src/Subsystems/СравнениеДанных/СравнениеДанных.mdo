@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91342ca4-49f7-46c0-bca4-f98757b8bad3">
+  <name>СравнениеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаОценкаЭффективности</picture>
+  </picture>
+  <content>CommonModule.РасчетИзмененийТекстBSLУпрощенныйКлиентСервер</content>
+  <content>CommonModule.ОбработкаИзмененийКонфигурацийВызовСервера</content>
+  <content>CommonModule.ОбработкаИзмененийКонфигурацийСервер</content>
+  <content>Enum.ТипыИзменений</content>
+  <content>Enum.СтатусыОбработки</content>
+  <content>ScheduledJob.МенеджерОбработкиИзмененийКонфигураций</content>
+  <content>CommonModule.СравнениеТекстBSLУпрощенныйDiffКлиентСервер</content>
+  <content>CommonModule.СравнениеТекстDiff</content>
+  <content>CommonForm.ФормаСравненияФайловWebInline</content>
+  <content>CommonTemplate.WebViewOneColumn</content>
+  <content>CommonModule.ОбработкаИзмененийКонфигурацийКлиентСервер</content>
+  <content>Report.ОтчетПоРассчитаннойВставке</content>
+  <content>Report.ОтчетПоСравнениюКонфигураций</content>
+  <content>Enum.ТипыПроблем</content>
+  <content>Enum.СтатусыОбработкиЗаданий</content>
+  <content>CommonForm.ФормаРедактированияКода1С</content>
+  <content>CommonForm.Модуль_РедактораКода1С</content>
+  <content>CommonTemplate.БиблиотекаРедактированияКода1С</content>
+  <subsystems>СравнениеДанных</subsystems>
+  <subsystems>АвтоматическаяОбработка</subsystems>
+</mdclass:Subsystem>

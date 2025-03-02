@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a07ea573-18b8-4e15-ad7d-d7f68c9be9c1">
+  <name>СравнениеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Сборки</content>
+  <content>DataProcessor.СравнениеДанныхДвухБаз</content>
+  <content>Catalog.ИсточникиДанных</content>
+  <content>Enum.СтатусыОбработкиЗаданий</content>
+  <parentSubsystem>Subsystem.СравнениеДанных</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.Конфигурации</subsystems>
+    <subsystems>Subsystem.СравнениеДанных</subsystems>
+    <subsystems>Subsystem.БагТрекинг</subsystems>
+    <subsystems>Subsystem.НСИ</subsystems>
+    <subsystems>Subsystem.Администрирование</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>
